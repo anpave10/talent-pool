@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import UserAvatar from "../../assets/user-avatar.svg";
 export const UserInfo = () => {
@@ -8,11 +9,7 @@ export const UserInfo = () => {
       </div>
       <div className="flex flex-col">
         <div>
-          <h3
-            className="font-semibold text-main-text text-base"
-          >
-            Nombre
-          </h3>
+          <h3 className="font-semibold text-main-text text-base">Nombre</h3>
         </div>
         <div>
           <span className="text-secondary-text text-sm">Role</span>

@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 interface ButtonProps {
   bgColor: string;
@@ -16,6 +17,7 @@ export const Button: React.FC<ButtonProps> = ({
   textContent,
   buttonAltText,
 }) => {
+  console.log("buttonIcon", buttonIcon, `border-${borderColor} bg-${bgColor}`);
   return (
     <button
       type="button"
