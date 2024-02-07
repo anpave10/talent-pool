@@ -19,12 +19,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button
       type="button"
-      style={{
-        borderColor: borderColor,
-        backgroundColor: bgColor,
-        color: textColor,
-      }}
-      className={`border px-3.5 py-2.5 rounded-lg font-semibold text-sm`}
+      className={`border px-3.5 py-2.5 rounded-lg font-semibold text-sm text-${textColor} border-${borderColor} bg-${bgColor}`}
     >
       <div className="flex gap-2 items-center">
         {buttonIcon && (

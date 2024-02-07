@@ -9,14 +9,13 @@ export const UserInfo = () => {
       <div className="flex flex-col">
         <div>
           <h3
-            className="font-semibold text-[
-#101828] text-base"
+            className="font-semibold text-main-text text-base"
           >
             Nombre
           </h3>
         </div>
         <div>
-          <span className="text-[#667085] text-sm">Role</span>
+          <span className="text-secondary-text text-sm">Role</span>
         </div>
       </div>
     </div>
