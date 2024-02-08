@@ -3,3 +3,4 @@ export const NEW_TALENT = "Nuevo Talento";
 export const HABILITIES = "Habilidades";
 export const ENGLISH_LEVEL = "Nivel de Inglés";
 export const FAVORITES = "Favoritos";
+export const SEARCH = "Buscar";

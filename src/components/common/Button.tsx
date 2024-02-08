@@ -1,27 +1,18 @@
 "use client";
+import { BUTTON_COLORS_VARIANTS } from "@/libs/ButtonContants";
+import { ButtonProps } from "@/types/ButtonTypes";
 import Image from "next/image";
-interface ButtonProps {
-  bgColor: string;
-  buttonIcon?: HTMLImageElement;
-  textColor: string;
-  textContent: string;
-  borderColor: string;
-  buttonAltText?: string;
-}
 
 export const Button: React.FC<ButtonProps> = ({
-  bgColor,
-  borderColor,
   buttonIcon,
-  textColor,
   textContent,
   buttonAltText,
+  variantColor,
 }) => {
-  console.log("buttonIcon", buttonIcon, `border-${borderColor} bg-${bgColor}`);
   return (
     <button
       type="button"
-      className={`border px-3.5 py-2.5 rounded-lg font-semibold text-sm text-${textColor} border-${borderColor} bg-${bgColor}`}
+      className={`border px-3.5 py-2.5 rounded-lg font-semibold text-sm ${BUTTON_COLORS_VARIANTS[variantColor]}`}
     >
       <div className="flex gap-2 items-center">
         {buttonIcon && (

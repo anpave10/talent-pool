@@ -1,12 +1,13 @@
 import FilterBar from "@/components/FilterBar/FilterBar";
+import MainComponent from "@/components/MainComponent/MainComponent";
 import Navbar from "@/components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen">
       <Navbar />
       <FilterBar />
-      <h1>Dashboard content</h1>
+      <MainComponent />
     </div>
   );
 }

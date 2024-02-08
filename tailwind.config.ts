@@ -6,6 +6,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/libs/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -20,9 +21,20 @@ const config: Config = {
       "main-text": "#101828",
       "secondary-text": "#667085",
       "secondary-gray": "#F2F4F7",
-      "main-gray": "#344054"
-    }
+      "main-gray": "#344054",
+      "primary-green": "#009688",
+      "white": "#FFFFFF",
+      "gray-50": "#F9FAFB",
+      "gray-100": "#F2F4F7",
+      "dark-gray": "#1C1B1F"
+    },
   },
+  safelist: [
+    {
+      pattern:
+        /(bg|text|border)-(primary-blue|main-text|secondary-text|secondary-gray|main-gray|primary-green)/,
+    },
+  ],
   plugins: [],
 };
 export default config;
