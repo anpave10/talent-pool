@@ -8,7 +8,9 @@ export const Button: React.FC<ButtonProps> = ({
   textContent,
   buttonAltText,
   variantColor,
+  iconSize,
 }) => {
+  const imageSize = iconSize || 12;
   return (
     <button
       type="button"
@@ -20,8 +22,8 @@ export const Button: React.FC<ButtonProps> = ({
             <Image
               src={buttonIcon}
               alt={buttonAltText || ""}
-              width={12}
-              height={12}
+              width={imageSize}
+              height={imageSize}
             />
           </div>
         )}

@@ -24,7 +24,7 @@ export const Badge: React.FC<BadgeProps> = ({ badgeName, variantColor }) => {
         {badgeName}
       </button>
       {isOpen && (
-        <div className="absolute right-[-10rem] mt-1 py-2 min-w-80 shadow-xl border rounded-lg border-gray-100 max-h-60 overflow-y-auto">
+        <div className="absolute right-[-10rem] mt-1 py-2 min-w-80 shadow-xl border rounded-lg border-gray-100 max-h-60 overflow-y-auto z-[100] bg-white">
           <Option />
           <Option />
           <Option />

@@ -21,12 +21,14 @@ const config: Config = {
       "main-text": "#101828",
       "secondary-text": "#667085",
       "secondary-gray": "#F2F4F7",
+      "light-gray": "#D0D5DD",
       "main-gray": "#344054",
       "primary-green": "#009688",
       "white": "#FFFFFF",
       "gray-50": "#F9FAFB",
       "gray-100": "#F2F4F7",
-      "dark-gray": "#1C1B1F"
+      "dark-gray": "#1C1B1F",
+      "black": "#1D1929",
     },
   },
   safelist: [

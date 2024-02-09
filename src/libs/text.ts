@@ -4,3 +4,4 @@ export const HABILITIES = "Habilidades";
 export const ENGLISH_LEVEL = "Nivel de Inglés";
 export const FAVORITES = "Favoritos";
 export const SEARCH = "Buscar";
+export const SEE_CV = "Ver CV";

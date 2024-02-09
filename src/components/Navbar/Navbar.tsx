@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 export const Navbar = () => {
   return (
-    <div className="w-full border-b-2 border-[#1D1929]">
+    <div className="w-full border-b border-black border-opacity-20">
       <div className="flex justify-between items-center px-10 py-5  max-w-screen-2xl m-auto">
         <div className="flex gap-8">
           <div className="flex items-center">

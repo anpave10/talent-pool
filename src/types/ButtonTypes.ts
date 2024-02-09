@@ -3,4 +3,5 @@ export interface ButtonProps {
   textContent: string;
   buttonAltText?: string;
   variantColor: string;
+  iconSize?: number;
 }
