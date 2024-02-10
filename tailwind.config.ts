@@ -29,6 +29,9 @@ const config: Config = {
       "gray-100": "#F2F4F7",
       "dark-gray": "#1C1B1F",
       "black": "#1D1929",
+      "blue-light": "#F0F9FF",
+      "red-light": "#FDF2FA",
+      "primary-red": "#C11574"
     },
   },
   safelist: [

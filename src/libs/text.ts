@@ -5,3 +5,6 @@ export const ENGLISH_LEVEL = "Nivel de Inglés";
 export const FAVORITES = "Favoritos";
 export const SEARCH = "Buscar";
 export const SEE_CV = "Ver CV";
+export const UPLOAD_FILE = "Subir un archivo";
+export const TECH_SKILLS = "Habilidades Tecnicas";
+export const SOFT_SKILLS = "Habilidades Blandas";
